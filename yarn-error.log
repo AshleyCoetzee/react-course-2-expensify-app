@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\p10493207\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add numeral@2.0.6
+  C:\Program Files\nodejs\node.exe C:\Users\p10493207\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel-polyfill@6.26.0
 
 PATH: 
   C:\Users\p10493207\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\p10493207\bin;C:\Program Files\Common Files\MapInfo\MapXtreme\8.1.0\RasterGridHandlers;C:\Program Files (x86)\Common Files\MapInfo\MapXtreme\8.1.0\RasterGridHandlers;C:\Program Files (x86)\Common Files\MapInfo\MapXtreme\8.1.0\RasterGridHandlers;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program Files\Microsoft SQL Server\130\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio;C:\Program Files\Microsoft SQL Server\90\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn;C:\Program Files\dotnet;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\p10493207\AppData\Local\Microsoft\WindowsApps;C:\Users\p10493207\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\p10493207\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\projects\react-course-projects\expensify-app\node_modules\acorn-dynamic-import\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\projects\react-course-projects\expensify-app\node_modules\acorn-globals\node_modules\.bin'
 
 npm manifest: 
   {
@@ -45,6 +45,7 @@ npm manifest:
       "moment": "2.18.1",
       "node-sass": "^4.0.0",
       "normalize.css": "7.0.0",
+      "numeral": "2.0.6",
       "raf": "3.3.2",
       "react": "16.0.0",
       "react-addons-shallow-compare": "15.6.0",
@@ -4278,6 +4279,11 @@ Lockfile:
   number-is-nan@^1.0.0:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+  
+  numeral@2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
+    integrity sha1-StCAk21EPCVhrtnyGX7//iX05QY=
   
   "nwmatcher@>= 1.3.9 < 2.0.0":
     version "1.4.4"
